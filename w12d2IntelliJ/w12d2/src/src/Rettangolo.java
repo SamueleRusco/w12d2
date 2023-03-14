@@ -11,8 +11,9 @@ public class Rettangolo{
 		this.altezza=b;
 		
 		}
-		
-		public int Perimetro() {
+
+
+	public int Perimetro() {
 			int perimetro =(this.base+this.altezza)*2;
 			return perimetro;
 		}

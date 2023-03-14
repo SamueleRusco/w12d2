@@ -12,6 +12,7 @@ public class Runnable{
 	Rettangolo r2 = new Rettangolo(22, 18);
    stampaRettangolo(r1);
    stampaRettangolo(r2);
+   stampaDueRettangoli(r1, r2);
     
 	}
 	
@@ -22,7 +23,12 @@ public class Runnable{
 		
 	}
 	public static void stampaDueRettangoli(Rettangolo r1, Rettangolo r2) {
-		System.out.println("rettangolo 1");
+		System.out.println("perimetro rettangolo 1:"+ r1.Perimetro());
+		System.out.println("perimetro rettangolo 2:"+ r2.Perimetro());
+
+		System.out.println("area rettangolo 1:"+ r1.Area());
+		System.out.println("area rettangolo 2:"+ r2.Area());
+
 		
 	}
 	
